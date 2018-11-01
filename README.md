@@ -22,15 +22,9 @@
 - id
 - name
 
-## Submissions 
-
-- id
-- student_id
-
 ## Answers
 
 - id
 - text
-- student_id
 - question_id
-- submission_id
+- student_id
