@@ -14,7 +14,7 @@ create table questions (
 
 create table students (
     id serial primary key, 
-    name text
+    name varchar (300)
 );
 
 create table answers (

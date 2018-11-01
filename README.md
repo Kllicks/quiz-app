@@ -1,6 +1,6 @@
 # Description
 
-- a quiz has quesitons
+- a quiz has questions
 - questions have correct answers
 - students can take quizzes
 - when they do, they hand in submissions
@@ -13,7 +13,7 @@
 ## Questions
 
 - id
-- text
+- question_text
 - correct_answer
 - quiz_id (A Question has a Quiz, a Quiz has many Questions)
 
@@ -25,7 +25,7 @@
 ## Answers
 
 - id
-- text
+- answer_text
 - question_id
 - student_id
 
